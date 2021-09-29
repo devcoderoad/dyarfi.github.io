@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zxx">
+<head>
+
+{% include "../includes/head.twig" %}
+
+  {% block styles %}{% endblock %}
+  
+{% include "../includes/styles.twig" %}
+	
+</head>
+
+<body class="bg-dark">
+
+  <div class="preloader"></div>
+  
+  <div class="page-wrapper">
+      
+    <main>
+
+      {% include "../includes/header.twig" %}
+
+      {% include "../includes/navigation.twig" %}
+
+      <div class="container-fluid">
+        {% block content %} {% endblock %}
+      </div>
+
+    </main>
+    <!--End MAIN -->
+      
+  </div>
+  <!--End pagewrapper-->
+  
+{% include "../includes/footer.twig" %}
+{% include "../includes/scripts.twig" %}
+	
+</body>
+</html>

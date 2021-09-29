@@ -1,0 +1,37 @@
+{
+  "name": "dyarfi.github.io",
+  "version": "1.0.0",
+  "description": "dyarfi.github.io Frontend development using Gulp, Twig and SCSS",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:dyarfi/dyarfi.github.io.git"
+  },
+  "keywords": [
+    "pug",
+    "gulp",
+    "node",
+    "frontend",
+    "SCSS"
+  ],
+  "author": "Defrian Yarfi",
+  "license": "ISC",
+  "homepage": "https://dyarfi.github.io/",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-copy": "^4.0.1",
+    "gulp-data": "^1.3.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-twig": "^1.2.0",
+    "gulp-watch": "^5.0.1"
+  }
+}
